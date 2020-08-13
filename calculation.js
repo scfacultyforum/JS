@@ -27,86 +27,86 @@ function getWages()
     {
 		if(status[0].checked) //Probationary PT - Update value for current probationary rate.
 		{
-			wages=credits*885;
+			wages=credits*895;
 		}
 		
        if(status[1].checked) //Non-Probationary PT - Update value for current non-probationary rate.
 		{
-			wages=credits*1015;
+			wages=credits*1026;
 		}		
     }
 	if(memberSelection[1].checked) //FT
     {	
 		if(degree[0].checked) //Bachelor's
 		{
-			if(step==1){wages=46420;} //Updated wages for step
-			if(step==2){wages=49478;} //Updated wages for step
-			if(step==3){wages=52546;} //Updated wages for step
-			if(step==4){wages=55605;} //Updated wages for step
-			if(step==5){wages=58667;} //Updated wages for step
-			if(step==6){wages=61591;} //Updated wages for step
-			if(step==7){wages=64793;} //Updated wages for step
-			if(step==8){wages=67857;} //Updated wages for step
-			if(step==9){wages=70923;} //Updated wages for step
-			if(step==10){wages=75377;} //Updated wages for step
-			if(step==11){wages=78303;} //Updated wages for step
-			if(step==12){wages=81158;} //Updated wages for step
-			if(step==13){wages=84113;} //Updated wages for step
-			if(step==14){wages=87250;} //Updated wages for step
+			if(step==1){wages=46884;} //Updated wages for step
+			if(step==2){wages=49973;} //Updated wages for step
+			if(step==3){wages=53072;} //Updated wages for step
+			if(step==4){wages=56161;} //Updated wages for step
+			if(step==5){wages=59254;} //Updated wages for step
+			if(step==6){wages=62206;} //Updated wages for step
+			if(step==7){wages=65441;} //Updated wages for step
+			if(step==8){wages=68536;} //Updated wages for step
+			if(step==9){wages=71633;} //Updated wages for step
+			if(step==10){wages=76131;} //Updated wages for step
+			if(step==11){wages=79086;} //Updated wages for step
+			if(step==12){wages=81970;} //Updated wages for step
+			if(step==13){wages=84954;} //Updated wages for step
+			if(step==14){wages=88122;} //Updated wages for step
 		}	
 				
 		if(degree[1].checked) //Master's
 		{
-			if(step==1){wages=51017;} //Updated wages for step
-			if(step==2){wages=54588;} //Updated wages for step
-			if(step==3){wages=58159;} //Updated wages for step
-			if(step==4){wages=61738;} //Updated wages for step
-			if(step==5){wages=65311;} //Updated wages for step
-			if(step==6){wages=68871;} //Updated wages for step
-			if(step==7){wages=72449;} //Updated wages for step
-			if(step==8){wages=76020;} //Updated wages for step
-			if(step==9){wages=79592;} //Updated wages for step
-			if(step==10){wages=83167;} //Updated wages for step
-			if(step==11){wages=88395;} //Updated wages for step
-			if(step==12){wages=91822;} //Updated wages for step
-			if(step==13){wages=95167;} //Updated wages for step
-			if(step==14){wages=98716;} //Updated wages for step
+			if(step==1){wages=51527;} //Updated wages for step
+			if(step==2){wages=55133;} //Updated wages for step
+			if(step==3){wages=58741;} //Updated wages for step
+			if(step==4){wages=62356;} //Updated wages for step
+			if(step==5){wages=65964;} //Updated wages for step
+			if(step==6){wages=69560;} //Updated wages for step
+			if(step==7){wages=73173;} //Updated wages for step
+			if(step==8){wages=76780;} //Updated wages for step
+			if(step==9){wages=80388;} //Updated wages for step
+			if(step==10){wages=83998;} //Updated wages for step
+			if(step==11){wages=89279;} //Updated wages for step
+			if(step==12){wages=92740;} //Updated wages for step
+			if(step==13){wages=96119;} //Updated wages for step
+			if(step==14){wages=99703;} //Updated wages for step
 		}
 		
 			if(degree[2].checked) //Master's + 30
 		{
-			if(step==1){wages=53563;} //Updated wages for step
-			if(step==2){wages=57139;} //Updated wages for step
-			if(step==3){wages=60709;} //Updated wages for step
-			if(step==4){wages=64280;} //Updated wages for step
-			if(step==5){wages=67857;} //Updated wages for step
-			if(step==6){wages=71430;} //Updated wages for step
-			if(step==7){wages=75001;} //Updated wages for step
-			if(step==8){wages=78570;} //Updated wages for step
-			if(step==9){wages=82149;} //Updated wages for step
-			if(step==10){wages=85720;} //Updated wages for step
-			if(step==11){wages=91111;} //Updated wages for step
-			if(step==12){wages=94653;} //Updated wages for step
-			if(step==13){wages=98101;} //Updated wages for step
-			if(step==14){wages=101759;} //Updated wages for step
+			if(step==1){wages=54099;} //Updated wages for step
+			if(step==2){wages=57710;} //Updated wages for step
+			if(step==3){wages=61316;} //Updated wages for step
+			if(step==4){wages=64922;} //Updated wages for step
+			if(step==5){wages=68536;} //Updated wages for step
+			if(step==6){wages=72145;} //Updated wages for step
+			if(step==7){wages=75751;} //Updated wages for step
+			if(step==8){wages=79356;} //Updated wages for step
+			if(step==9){wages=82970;} //Updated wages for step
+			if(step==10){wages=86577;} //Updated wages for step
+			if(step==11){wages=92022;} //Updated wages for step
+			if(step==12){wages=95600;} //Updated wages for step
+			if(step==13){wages=99082;} //Updated wages for step
+			if(step==14){wages=102777;} //Updated wages for step
 		}
 		
 			if(degree[3].checked) //Doctorate
 		{
-			if(step==1){wages=56119;} //Updated wages for step
-			if(step==2){wages=59688;} //Updated wages for step
-			if(step==3){wages=63265;} //Updated wages for step
-			if(step==4){wages=66831;} //Updated wages for step
-			if(step==5){wages=70409;} //Updated wages for step
-			if(step==6){wages=73977;} //Updated wages for step
-			if(step==7){wages=77548;} //Updated wages for step
-			if(step==8){wages=81123;} //Updated wages for step
-			if(step==9){wages=84701;} //Updated wages for step
-			if(step==10){wages=88289;} //Updated wages for step
-			if(step==11){wages=93819;} //Updated wages for step
-			if(step==12){wages=97459;} //Updated wages for step
-			if(step==13){wages=101010;} //Updated wages for step
-			if(step==14){wages=104777;} //Updated wages for step
+			if(step==1){wages=56680;} //Updated wages for step
+			if(step==2){wages=60285;} //Updated wages for step
+			if(step==3){wages=63897;} //Updated wages for step
+			if(step==4){wages=67499;} //Updated wages for step
+			if(step==5){wages=71113;} //Updated wages for step
+			if(step==6){wages=74716;} //Updated wages for step
+			if(step==7){wages=78323;} //Updated wages for step
+			if(step==8){wages=81935;} //Updated wages for step
+			if(step==9){wages=85548;} //Updated wages for step
+			if(step==10){wages=89172;} //Updated wages for step
+			if(step==11){wages=94757;} //Updated wages for step
+			if(step==12){wages=98434;} //Updated wages for step
+			if(step==13){wages=102020;} //Updated wages for step
+			if(step==14){wages=105825;} //Updated wages for step
 		}
     }
 	if(memberSelection[2].checked){wages=nfsal*1;} //Non-Faculty
@@ -119,8 +119,8 @@ function getMEA()
 	var memberfactor=getMember();
 	var wages=getWages();
 	var MEA=0;
-	var threshold=15000*memberfactor;
-	var threshold2=650*memberfactor;
+	var threshold=15000*memberfactor; //Update MEA salary max
+	var threshold2=655*memberfactor; //Update MEA cap
 	if(wages>=threshold){MEA=getWages()*0.015;}
     if(wages<threshold){MEA=getWages()*0.0144;}
 	if(MEA>threshold2){MEA=threshold2;}
@@ -144,9 +144,9 @@ function getNEA()
 	{step=2;}
 	if(memberSelection[2].checked) //Non-Faculty
 	{step=1;} 
-	if(step==0){NEA=66.50;} //Adjust for NEA rate
-	if(step==1){NEA=109.50;} //Adjust for NEA rate
-	if(step==2){NEA=196;} //Adjust for NEA rate
+	if(step==0){NEA=67.50;} //Adjust for NEA rate
+	if(step==1){NEA=111.50;} //Adjust for NEA rate
+	if(step==2){NEA=200;} //Adjust for NEA rate
 	return NEA;
 }
 
