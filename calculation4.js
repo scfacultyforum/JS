@@ -128,9 +128,9 @@ function getMEA()
 	//if(wages>=threshold){MEA=getWages()*0.015;} //Two-tiered higher rate
         //if(wages<threshold){MEA=getWages()*0.0144;} //Two-tired higher rate
 	var MEA=getWages()*0.011;
-	if(wages>=tier2){MEA=getWages()*0.013;} //Applies second tier percent
-	if(wages>=tier3){MEA=getWages()*0.0155;} //Applies third tier percent
-	if(wages>=tier4){MEA=getWages()*0.016;} //Applies fourth tier percent
+	if(wages>=tier1){MEA=getWages()*0.013;} //Applies second tier percent
+	if(wages>=tier2){MEA=getWages()*0.0155;} //Applies third tier percent
+	if(wages>=tier3){MEA=getWages()*0.016;} //Applies fourth tier percent
 	if(MEA>threshold2){MEA=threshold2;} //Checks if dues are over max, and applies max
 	return MEA;
 }
