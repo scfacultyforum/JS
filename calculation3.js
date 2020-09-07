@@ -119,11 +119,19 @@ function getMEA()
 	var memberfactor=getMember();
 	var wages=getWages();
 	var MEA=0;
-	var threshold=15000*memberfactor; //Update MEA salary max
+	//var threshold=15000*memberfactor; //Update MEA salary tier
+	var tier1=10000*memberfactor; //Update for first tier max
+	var tier2=20000*memberfactor; //Update for second tier max
+	var tier3=30000*memberfactor; //Update for third tier max
+	var tier4=40000*memberfactor; //Update for fourth tier max
 	var threshold2=655*memberfactor; //Update MEA cap
-	if(wages>=threshold){MEA=getWages()*0.015;}
-    if(wages<threshold){MEA=getWages()*0.0144;}
-	if(MEA>threshold2){MEA=threshold2;}
+	//if(wages>=threshold){MEA=getWages()*0.015;} //Two-tiered higher rate
+        //if(wages<threshold){MEA=getWages()*0.0144;} //Two-tired higher rate
+	var MEA=getWages()*0.011;
+	if(wages>=tier2){MEA=getWages()*0.013;} //Applies second tier percent
+	if(wages>=tier3){MEA=getWages()*0.0155;} //Applies third tier percent
+	if(wages>=tier4){MEA=getWages()*0.016;} //Applies fourth tier percent
+	if(MEA>threshold2){MEA=threshold2;} //Checks if dues are over max, and applies max
 	return MEA;
 }
 
