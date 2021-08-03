@@ -122,8 +122,8 @@ function getMEA()
 	//var threshold=15000*memberfactor; //Update MEA salary tier
 	var tier1=10000*memberfactor; //Update for first tier max
 	var tier2=20000*memberfactor; //Update for second tier max
-	var tier3=30000*memberfactor; //Update for third tier max
-	var tier4=40000*memberfactor; //Update for fourth tier max
+	var tier3=35000*memberfactor; //Update for third tier max
+	var tier4=46406*memberfactor; //Update for fourth tier max
 	var threshold2=655*memberfactor; //Update MEA cap
 	//if(wages>=threshold){MEA=getWages()*0.015;} //Two-tiered higher rate
         //if(wages<threshold){MEA=getWages()*0.0144;} //Two-tired higher rate
@@ -152,9 +152,9 @@ function getNEA()
 	{step=2;}
 	if(memberSelection[2].checked) //Non-Faculty
 	{step=1;} 
-	if(step==0){NEA=67.50;} //Adjust for NEA rate
-	if(step==1){NEA=111.50;} //Adjust for NEA rate
-	if(step==2){NEA=200;} //Adjust for NEA rate
+	if(step==0){NEA=68;} //Adjust for NEA rate
+	if(step==1){NEA=112.50;} //Adjust for NEA rate
+	if(step==2){NEA=202;} //Adjust for NEA rate
 	return NEA;
 }
 
