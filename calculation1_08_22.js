@@ -143,7 +143,7 @@ function getNEA()
     var step=theForm.elements["step_ft"].value;	
 	var status = theForm.elements["probation"];
 	var credits = theForm.elements["cred_pt"].value;
-	var ntstatus = theForm.elements["ntstat"];
+	var ntstat = theForm.elements["ntstat"];
 	if(memberSelection[0].checked) //PT
 	{
 		if(credits<8){step=0;}
@@ -153,8 +153,8 @@ function getNEA()
 	{step=2;}
 	if(memberSelection[2].checked) //Non-Faculty
 	{
-		if(ntstatus=="NT0"){step=1;}
-		if(ntstatus=="NT1"){step=2;}
+		if(ntstat[0].checked){step=1;}
+		if(ntstat[1].checked){step=2;}
 	}
 	if(step==0){NEA=68;} //Adjust for NEA rate
 	if(step==1){NEA=112.50;} //Adjust for NEA rate
