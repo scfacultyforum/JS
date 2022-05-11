@@ -11,7 +11,7 @@ function totalGPA()
 	
     var total = 0.1*hs+0.15*alg+0.3*geom+0.3*algii+0.15*recent;
 
-    document.getElementById('totalWages').innerHTML =
+    document.getElementById('totalGPA').innerHTML =
                                       "Math Weighted GPA: "+total; 
    					  
 
