@@ -1,6 +1,6 @@
 var theForm = document.forms["weightedmath"];
 
-function totalGPA()
+function calculateGPA()
 {
   var theForm = document.forms["weightedmath"];
 	var hs = theForm.elements["hsgpa"].value;
