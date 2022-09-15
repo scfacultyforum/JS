@@ -70,7 +70,7 @@ function getWages()
 			if(step==11){wages=93887.58;} //Updated wages for step
 			if(step==12){wages=97527.24;} //Updated wages for step
 			if(step==13){wages=101080.66;} //Updated wages for step
-			if(step==14){wages=104.849.67;} //Updated wages for step
+			if(step==14){wages=104849.67;} //Updated wages for step
 		}
 		
 			if(degree[2].checked) //Master's + 30
