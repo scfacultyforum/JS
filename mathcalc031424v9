@@ -9,19 +9,16 @@ function calculateGPA()
  	var algii = theForm.elements["alg2"].value;
 	var recent = theForm.elements["last"].value;
   var level = theForm.elements["level"];
-	if(level[0].checked) //Upper level course
-    {var total = 0.1*hs+0.15*alg+0.15*geom+0.3*algii+0.3*recent;}
+	if(level[0].checked){var total = 0.1*hs+0.15*alg+0.15*geom+0.3*algii+0.3*recent;}
 	if(level[1].checked) //Lower level course
     {var total = 0.1*hs+0.15*alg+0.3*geom+0.3*algii+0.15*recent;}
 	if(level[2].checked) //No recent math class
     {var total = 0;}
-if(total >= 3){var recommend="We would recommend you can take a college level course (Math 122)"}
-if(total >= 2 && total <3){var recommend="We would recommend you can take a corequisite support course (Math 022)"}
-if(total<2){var recommend="We would recommend you receive additional help before attempting a math course."}
-var recommend=5;  
+if(total >= 3){var recommend = 'We would recommend you can take a college level course (Math 122)';}
+if(total >= 2 && total <3){var recommend='We would recommend you can take a corequisite support course (Math 022)';}
+if(total<2){var recommend='We would recommend you receive additional help before attempting a math course.';}
 
-document.getElementById('totalGPA').innerHTML = 
-			"Recommendation: ";
+document.getElementById('totalGPA').innerHTML = "Recommendation: ";
  }                                   
    					  
 
