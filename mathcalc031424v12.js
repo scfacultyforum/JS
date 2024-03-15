@@ -16,7 +16,8 @@ if(total >= 3){var recommend = 'We would recommend you can take a college level 
 if(total >= 2 && total < 3){var recommend='We would recommend you can take a corequisite support course (Math 022)';}
 if(total < 2){var recommend='We would recommend you receive additional help before attempting a math course.';}
 
-document.getElementById('totalGPA').innerHTML = "Recommendation: "+recommend;
+document.getElementById('rec').innerHTML = "Recommendation: "+recommend;
+document.getElementById('totalGPA').innerHTML = "Your weighted GPA based on our calculations is: "+total;
  }                                
    					  
 
