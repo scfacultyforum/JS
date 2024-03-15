@@ -20,7 +20,7 @@ if(total >= 2 && total <3){var recommend="We would recommend you can take a core
 if(total<2){var recommend="We would recommend you receive additional help before attempting a math course."}
 var recommend=5;  
 document.getElementById('totalGPA').innerHTML = 
-			"Recommendation: "+recommend;
+			"Recommendation: ";
                                     
    					  
 
